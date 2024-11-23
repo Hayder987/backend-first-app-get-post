@@ -17,7 +17,7 @@ app.get("/", (req, res)=>{
 })
 
 app.post('/users', (req, res)=>{
-    console.log('data heat in backend')
+    console.log('data heat ')
     const newUser = req.body;
      newUser.id = users.length + 1;
      users.push(newUser)
